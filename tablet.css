@@ -1,0 +1,209 @@
+@media (max-width: 768px) {
+    
+.contuno {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_icono {
+    display: block;
+}
+.menu_icono a {
+    color: var(--Fondo);
+    font-size: 28px;
+}
+.contuno nav {
+        width: 100%;
+}
+.menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.menu.activo {
+        display: flex;
+}
+
+#cajamenu li {
+    width: 100%;
+}
+
+#cajamenu a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+    
+
+.contdos {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.botones {
+    justify-content: center;
+}
+.linea{
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: var(--Fondo);
+    border: none;
+}
+   
+.titulos2 {
+    background: linear-gradient(to right, var(--Extra), #d61a7f);
+    color: var(--Letras);
+    padding: 25px 20px;
+    border-radius: 20px;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+    .sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.yo {
+    background: none;
+    color: var(--Letra2);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.yo i {
+    color: var(--Fondo);
+    font-size: 65px;
+}
+
+.dos {
+    flex-direction: row-reverse;
+}
+
+.dos i {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+
+
+.contcua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formacion1, .formacion2 {
+    width: 100%;
+}
+
+.formacion2 {
+/* Cambia el fondo a un degradado horizontal usando las variables de color */
+    background: linear-gradient(to right, var(--Fondo1), var(--Botón));
+    padding: 20px;
+}
+
+.concin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 20px;
+}
+
+.contex {
+    width: 45%;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.columna {
+    width: 55%;
+}
+/* nth son los hijos y los alinea */
+.columna:nth-child(2) {
+    align-self: center;
+    /* align-self mueve únicamente este elemento sin afectar a los demás hijos del contenedor */
+}
+
+.columna:nth-child(3) {
+    align-self: flex-end;
+}
+
+
+.carrucel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 15px;
+    overflow-x: auto; /* Permite deslizar las tarjetas horizontalmente en tablet/móvil sin desbordar la página */
+}
+
+.fondo {
+    flex-shrink: 0; /* Evita que Flexbox aplaste o encoja las tarjetas en pantallas chicas, respetando su ancho de 340px */
+    width: 340px;
+}
+
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.formulario {
+    width: 90%;
+}
+
+.formulario button {
+    width: 70%;
+}
+
+.tarjecont {
+    width: 80%;
+    padding: 35px 30px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.subir {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+}
