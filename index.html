@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <header id="inicio" class="ancho contuno">
+    <header class="ancho contuno">
         <div class="logo">
             <figure>
                 <img src="imagenes/persona.png" alt="Melisa Vazquez">
@@ -24,16 +24,16 @@
 </div>
         <nav>
             <ul id="cajamenu" class="menu">
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="ancho contdos">
+    <section id="inicio"  class="ancho contdos">
 
         <div class="contenedorfoto">
             <div class="manchafondo"></div>
@@ -60,7 +60,7 @@
 </div>
 
     </section>
-    <section class=" ancho">
+    <section id="sobremi" class=" ancho">
         <h1 class="titulos">INFORMACIÓN PERSONAL</h1>
         <h2 class="titulos2">Comprometida con la idea de que construir bien es cuidar la experiencia digital</h2>
     <article class="sobremi">
@@ -92,7 +92,7 @@
                 </div>
         </div>
     </section>
-    <h1 class="titulos">EXPERIENCIA LABORAL</h1>    
+    <h1 id="experiencia" class="titulos">EXPERIENCIA LABORAL</h1>    
     <section class="ancho concin fondo_experiencia ">
         <img class="img_fondo" src="imagenes/fondo.avif" alt="" >
         <article class="contex">
@@ -122,7 +122,7 @@
             </div>
         </article>
     </section>
-    <h1 class="titulos">HABILIDADES</h1>
+    <h1 id="habilidades" class="titulos">HABILIDADES</h1>
 <section class="ancho">
   
   <div class="contenedor">
@@ -162,7 +162,7 @@
     </div>
   </div>
 </section>
-  <h1 class="titulos">PROYECTOS</h1>
+  <h1 id="proyectos" class="titulos">PROYECTOS</h1>
 
 <section class="ancho carrucel">
   
@@ -211,7 +211,7 @@
 </section>
 
 
-<section class="ancho contacto">
+<section id="contacto" class="ancho contacto">
     <div class="formulario">
         <h2>¿QUIERES CONOCER MÁS SOBRE MI TRABAJO?</h2>
         <form>
@@ -223,7 +223,7 @@
         </form>
     </div>
 
-    <div class="tarjecont">
+    <div  class="tarjecont">
         <h2>CONTACTO</h2>
         <p><i class="fa-solid fa-envelope"></i> Melisacocom590@gmail.com</p>
         <p><i class="fa-solid fa-phone"></i> +52 999 559 5713</p>
@@ -238,7 +238,7 @@
     
 </section>
 <div class=" ancho subir">
-    <a href="#" class="btn_arriba">Volver arriba <i class="fa-solid fa-arrow-up"></i></a>
+    <a href="#inicio" class="btn_arriba">Volver arriba <i class="fa-solid fa-arrow-up"></i></a>
 </div>
 <footer class="footer ancho">
     <p>© 2026 Melisa Vazquez | Todos los derechos reservados</p>

@@ -113,7 +113,7 @@
 }
 
 .formacion2 {
-/* Cambia el fondo a un degradado horizontal usando las variables de color */
+/* degrada en horizontal */
     background: linear-gradient(to right, var(--Fondo1), var(--Botón));
     padding: 20px;
 }
@@ -140,10 +140,9 @@
 .columna {
     width: 55%;
 }
-/* nth son los hijos y los alinea */
+
 .columna:nth-child(2) {
     align-self: center;
-    /* align-self mueve únicamente este elemento sin afectar a los demás hijos del contenedor */
 }
 
 .columna:nth-child(3) {
